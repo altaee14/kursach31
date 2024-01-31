@@ -1,0 +1,21 @@
+.content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper { display: grid; grid-template-columns: 0.3fr 1fr 0.3fr; }
+h1 { font-size: 30px; padding: 0; margin: 20px 0 20px 0; }
+table { width: 100%; border-collapse: collapse; }
+table th, table td { border: #aaa 1px solid; padding: 10px; vertical-align: top; }
+table th { background: #eee; }
+.forum_href { color: black; }
+.forum_href:hover {
+    opacity: 70%; }
+.messages tbody tr td:first-child { width: 25%; }
+.messages tbody tr td:first-child a { display: inline-block; }
+.messages tbody tr td:first-child span { display: block; margin: 10px 0; }
+.message_form textarea { width: 95%; padding: 3px; height: 200px; outline: none; border: #aaa 1px solid; font-size: 12px; background: #eee; }
+.message_form input[type="text"] { width: 95%; padding: 3px; border: #aaa 1px solid; font-size: 16px; background: #eee; outline: none; }
+.message_form input[type="submit"] { padding: 10px 40px; border: #aaa 1px solid; font-size: 12px; background: #eee; cursor: pointer; }
+.message_form input[type="submit"]:hover { border: #aaa 1px solid; font-size: 12px; background: #bdfdaf;}
+.reply_form { margin-top: 20px; margin-bottom: 300px; }

@@ -1,0 +1,52 @@
+.forma{
+    width: 350px;
+    height: fit-content;
+    background: whitesmoke;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    margin: 5% auto;
+}
+
+input{
+    width: 60%;
+    height: 20px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 5px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.submit_btn{
+    width: 60%;
+    height: 40px;
+    margin: 20px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: Navy;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+.submit_btn:hover{
+    background: #3817a1;
+}
+
+.auth_txt{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-family: "Arial Black";
+    color: gray;
+    opacity: 70%;
+}

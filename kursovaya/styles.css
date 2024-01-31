@@ -1,0 +1,42 @@
+ a{
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: large;
+    color: Ivory;
+    margin-left: 20px;
+     margin-right: 20px;
+}
+ a:hover {
+     opacity: 70%; }
+
+ .logo{
+     font-family: "Arial";
+     font-size: large;
+     color: Ivory;
+     margin-left: 20px;
+     margin-bottom: auto;
+     margin-top: auto;
+ }
+
+ body{
+     margin: 0;
+ }
+
+.tool_bar{
+    width: 100%;
+    height: 50px;
+    position: static;
+    background-color: Navy;
+    display: flex;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.tool_bar_a{
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
